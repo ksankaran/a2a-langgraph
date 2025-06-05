@@ -5,9 +5,12 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13.3"
 dependencies = [
+    "a2a-sdk>=0.2.5",
+    "asyncclick>=8.1.8",
     "langchain-openai>=0.3.19",
-    "langgraph>=0.4.8",
-    "langgraph-cli[inmem]>=0.2.12",
+    "langgraph>=0.2.76",
+    "langgraph-cli[inmem]>=0.1.71",
+    "rich>=14.0.0",
 ]
 
 [tool.setuptools]
