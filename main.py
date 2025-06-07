@@ -58,7 +58,7 @@ def app(host: str = None, port: int = None) -> A2AStarletteApplication:
 @click.option('--host', 'host', default='localhost')
 @click.option('--port', 'port', default=8080)
 def main(host, port):
-    """Starts the Subscriptions Agent server."""
+    """Starts the Weather Agent server."""
     try:
         agent_app = app(host, port)
 
